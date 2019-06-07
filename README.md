@@ -4,7 +4,7 @@
 
 This is a free and open-source alternative to the most popular WordPress SEO plugins in the market. It packs all the most important features and is simple to use.
 
-Command how you show up in search results! With Open WordPress SEO search engines find your content more easily, index your content faster, and give your site better ranking.
+Contribution is welcome. However, contact tzri before coding new features. That way they are more likely to be accepted.
 
 ## Features
 
@@ -29,6 +29,10 @@ Command how you show up in search results! With Open WordPress SEO search engine
 - Displays SEO status on the admin dashboard and post listings.
 - Google Analytics visitor tracking support.
 - ... and other features.
+
+### Marketing pitch
+
+Command how you show up in search results! With Open WordPress SEO search engines find your content more easily, index your content faster, and give your site better ranking. Download today or even better download NOW.
 
 ## Installation
 
