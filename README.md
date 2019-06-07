@@ -1,6 +1,8 @@
 # Open WordPress SEO
 
-This is a free and open-source alternative to plugins such as All In One SEO Pack and Yoast SEO. It packs all the most important features and is simple to use.
+![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/tzri/open-wordpress-seo.svg?label=Latest%20version)
+
+This is a free and open-source alternative to the most popular WordPress SEO plugins in the market. It packs all the most important features and is simple to use.
 
 Command how you show up in search results! With Open WordPress SEO search engines find your content more easily, index your content faster, and give your site better ranking.
 
