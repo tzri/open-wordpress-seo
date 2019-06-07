@@ -1,0 +1,444 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Poor Man's WordPress SEO\n"
+"POT-Creation-Date: 2018-01-07 23:45+0200\n"
+"PO-Revision-Date: 2017-12-31 14:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: Moki-Moki\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: modules/pm-wp-seo-ui-settings.php:18
+msgid "Poor Man's WordPress SEO Settings"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:21
+msgid "Main Settings"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:22
+msgid "Automatic Titles"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:23
+msgid "Sitemap"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:24
+msgid "Advanced"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:33
+msgid "Actions"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:37
+msgid "Create sitemap now"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:48
+msgid "Enable Gzip compression"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:50
+msgid "Disable Gzip compression"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:56 modules/pm-wp-seo-ui-settings.php:59
+#: modules/pm-wp-seo-ui-settings.php:68 modules/pm-wp-seo-ui-settings.php:76
+#: modules/pm-wp-seo-ui-settings.php:84 modules/pm-wp-seo-ui-settings.php:87
+#: modules/pm-wp-seo-ui-settings.php:95 modules/pm-wp-seo-ui-settings.php:98
+msgid "Save settings"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:117
+msgid ""
+"Enabling Gzip compression failed. Could not not update .htaccess file. "
+"Please check that the file is writable."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:123
+msgid ""
+"Gzip compression seems not to be working. Perhaps mod_deflate module is not "
+"active."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:133
+msgid "Gzip compression is now enabled."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:135
+msgid "Gzip compression is now disabled."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:147
+msgid ""
+"Please check \"Enable XML sitemap\" option on Sitemap tab and save settings "
+"before using the Create sitemap now button."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:151
+#, php-format
+msgid ""
+"<a  target=\"_blank\" href=\"/sitemap.xml\">Sitemap.xml</a> was succesfully "
+"updated %s."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:155
+#, php-format
+msgid ""
+"<a href=\"/image-sitemap.xml\" target=\"_blank\">Image-sitemap.xml</a> was "
+"succesfully updated %s."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:161
+#, php-format
+msgid ""
+"Could not create sitemap. Please check that your WordPress directory or %s "
+"is writable."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:167
+#, php-format
+msgid ""
+"Could not create image sitemap. Please check that your WordPress directory "
+"or %s is writable."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:173 modules/pm-wp-seo-widget.php:42
+#, php-format
+msgid ""
+"Search engines are told not to index this site. Change the setting in <a "
+"href=\"%s\">Reading</a> > Search Engine Visibility."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:181
+msgid ""
+"The permalink structure does not include post name. It is recommended to set "
+"permalink structure to \"Post name\" on Permalinks settings page."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:188
+msgid "Google was recently notified about changes."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:194
+msgid "Bing was recently notified about changes."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:200
+msgid "There was a problem notifying Google about changes."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:206
+msgid "There was a problem notifying Bing about changes."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:248 modules/pm-wp-seo-ui.php:61
+msgid "No description set."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:265
+msgid ""
+"Displays a credits notification for this plugin in the footer of the site. "
+"If you find this plugin useful, please check this option."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:271
+msgid ""
+"Guide search engines not to index category pages. They may contain duplicate "
+"content."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:277
+msgid ""
+"Guide search engines not to index tag archive pages. They may contain "
+"duplicate content."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:283
+msgid ""
+"Guide search engines not to index user or date archive pages. They will most "
+"likely contain duplicate content that you don't want to have. (Recommended)"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:289
+msgid ""
+"Guide search engines not to index other than the first page of each page or "
+"article. (Recommended)"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:295
+msgid ""
+"<p>The plugin will create and automatically maintain an XML sitemap when you "
+"add content. (Recommended)</p><p>After saving the settings, use the \"Create "
+"sitemap now\" button on Main Settings to verify that sitemap creation is "
+"working.</p>"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:316
+msgid ""
+"Every image you attach to posts creates an attachment post. Redirect to "
+"original article when accessing these attachment posts. (Recommended)"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:326
+msgid "Item type"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:327
+msgid "Priority"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:351 modules/pm-wp-seo-widget.php:53
+msgid "High"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:352
+msgid "Medium"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:353 modules/pm-wp-seo-widget.php:50
+msgid "Low"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:358 modules/pm-wp-seo-ui-settings.php:361
+msgid "Medium or High value recommended."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:375
+msgid "Enter post IDs separated by commas..."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:376
+msgid "Enter the IDs you wish to exclude separated by commas."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:381
+msgid "Copy/paste your code here..."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:382
+msgid ""
+"Here you can enter HTML / JavaScript (e.g. statistics scripts) that will be "
+"inserted into the footer of each page."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:388
+msgid ""
+"In order to use Facebook Insights you must add the app ID to your page. "
+"Insights lets you view analytics for traffic to your site from Facebook."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:398
+#, php-format
+msgid "The tracking code you get from Google Analytics (%s)."
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:402
+msgid ""
+"<span class=\"dashicons dashicons-admin-settings\"></span> Automatic Titles"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:407
+msgid ""
+"Use the following variables in the titles to print out post or site related "
+"information:"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:409
+msgid "The name of the item"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:410
+msgid "The name of the site"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:411
+msgid "The name of the item's first category"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:412
+msgid "The name of the item's author"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:413
+msgid "The publish date of the item"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:419
+msgid "Use automatic titles when post specific title has not been set"
+msgstr ""
+
+#: modules/pm-wp-seo-ui-settings.php:436
+msgid "Title format for post type: "
+msgstr ""
+
+#: modules/pm-wp-seo-ui.php:26
+msgid "Title"
+msgstr ""
+
+#: modules/pm-wp-seo-ui.php:29
+msgid "Meta Description"
+msgstr ""
+
+#: modules/pm-wp-seo-ui.php:32
+msgid "SERP Preview"
+msgstr ""
+
+#: modules/pm-wp-seo-ui.php:74
+#, php-format
+msgid ""
+"<span class=\"dashicons dashicons-warning pm-wp-seo-fail\"></span> The "
+"article word count is too low. Minimum of %s words is recommended."
+msgstr ""
+
+#: modules/pm-wp-seo-ui.php:81
+msgid "SEO"
+msgstr ""
+
+#: modules/pm-wp-seo-ui.php:94
+msgid "SEO for this item is in good condition."
+msgstr ""
+
+#: modules/pm-wp-seo-ui.php:97
+msgid "SEO for this item needs some work."
+msgstr ""
+
+#: modules/pm-wp-seo-widget.php:29
+msgid "Overall SEO score"
+msgstr ""
+
+#: modules/pm-wp-seo-widget.php:31
+msgid "Frontpage SEO score"
+msgstr ""
+
+#: modules/pm-wp-seo-widget.php:33
+msgid "Articles SEO score"
+msgstr ""
+
+#: modules/pm-wp-seo-widget.php:35
+msgid "Pages SEO score"
+msgstr ""
+
+#: modules/pm-wp-seo-widget.php:37
+msgid "Sitemap updated"
+msgstr ""
+
+#: modules/pm-wp-seo-widget.php:56
+msgid "OK"
+msgstr ""
+
+#: modules/pm-wp-seo-widget.php:214
+#, php-format
+msgid "Not enabled. <a href=\"%s\">Enable here</a>"
+msgstr ""
+
+#: modules/pm-wp-seo-widget.php:218
+msgid "Error"
+msgstr ""
+
+#: pm-wp-seo.php:180
+msgid "<span class=\"dashicons dashicons-admin-home\"></span> Frontpage"
+msgstr ""
+
+#: pm-wp-seo.php:187
+msgid "<span class=\"dashicons dashicons-admin-generic\"></span> Robots"
+msgstr ""
+
+#: pm-wp-seo.php:194
+msgid "<span class=\"dashicons dashicons-networking\"></span> Sitemap"
+msgstr ""
+
+#: pm-wp-seo.php:201
+msgid ""
+"<span class=\"dashicons dashicons-visibility\"></span> Visitor statistics"
+msgstr ""
+
+#: pm-wp-seo.php:208
+msgid "<span class=\"dashicons dashicons-welcome-learn-more\"></span> Advanced"
+msgstr ""
+
+#: pm-wp-seo.php:222
+msgid "Frontpage title"
+msgstr ""
+
+#: pm-wp-seo.php:230
+msgid "Frontpage description"
+msgstr ""
+
+#: pm-wp-seo.php:238
+msgid "Show plugin credits"
+msgstr ""
+
+#: pm-wp-seo.php:246
+msgid "Use noindex for categories"
+msgstr ""
+
+#: pm-wp-seo.php:254
+msgid "Use noindex for tag archives"
+msgstr ""
+
+#: pm-wp-seo.php:262
+msgid "Use noindex for author and date archives"
+msgstr ""
+
+#: pm-wp-seo.php:270
+msgid "Use noindex for other than the first page of each page or article"
+msgstr ""
+
+#: pm-wp-seo.php:278
+msgid "Enable XML sitemap"
+msgstr ""
+
+#: pm-wp-seo.php:286
+msgid "Include last modification time"
+msgstr ""
+
+#: pm-wp-seo.php:294
+msgid "Include categories"
+msgstr ""
+
+#: pm-wp-seo.php:302
+msgid "Include tag archives"
+msgstr ""
+
+#: pm-wp-seo.php:310
+msgid "Page priorities"
+msgstr ""
+
+#: pm-wp-seo.php:318
+msgid "Exclude items"
+msgstr ""
+
+#: pm-wp-seo.php:326
+msgid "Add code to footer"
+msgstr ""
+
+#: pm-wp-seo.php:334
+msgid "Redirect attachment pages to containing page or article"
+msgstr ""
+
+#: pm-wp-seo.php:342
+msgid "Facebook app ID"
+msgstr ""
+
+#: pm-wp-seo.php:350
+msgid "Google Analytics tracking code"
+msgstr ""
+
+#: pm-wp-seo.php:442
+#, php-format
+msgid ""
+"Poor Man's WordPress SEO activated. Please configure it at <a href=\"%s"
+"\">settings page</a>."
+msgstr ""
