@@ -15,14 +15,14 @@ class OpenWordPressSEOUi {
 	
 	public function add_post_metaboxes() {
 		foreach (get_post_types(NULL, 'names') as $post_type) {
-			add_meta_box('open_wp_seo', '<span class="dashicons dashicons-admin-generic pm-wp-seo-animated"></span> Open WordPress SEO', array($this, 'create_metabox_main'), $post_type, 'normal', 'high');
-			add_meta_box('open_wp_seo_serp_preview', '<span class="dashicons dashicons-visibility pm-wp-seo-animated"></span> '. __('SERP Preview', OpenWordPressSEO::TEXT_DOMAIN), array($this, 'create_metabox_serp_preview'), $post_type, 'normal', 'high');
+			add_meta_box('open_wp_seo', '<span class="dashicons dashicons-admin-generic open-wp-seo-animated"></span> Open WordPress SEO', array($this, 'create_metabox_main'), $post_type, 'normal', 'high');
+			add_meta_box('open_wp_seo_serp_preview', '<span class="dashicons dashicons-visibility open-wp-seo-animated"></span> '. __('SERP Preview', OpenWordPressSEO::TEXT_DOMAIN), array($this, 'create_metabox_serp_preview'), $post_type, 'normal', 'high');
 		}
 	}
 
 	public function create_metabox_main($post){
 		?>
-		<div class="pm-wp-seo-settings">
+		<div class="open-wp-seo-settings">
 		
 		<p><strong><?php _e('Title', OpenWordPressSEO::TEXT_DOMAIN); ?></strong></p>
 		<input type="text" maxlength="60" name="open_wp_seo_title" id="open_wp_seo_title" value="<?php echo get_post_meta($post->ID, 'open_wp_seo_title', TRUE); ?>" /><br />
@@ -31,11 +31,11 @@ class OpenWordPressSEOUi {
 		<textarea maxlength="160" id="open_wp_seo_description" name="open_wp_seo_description"><?php echo get_post_meta($post->ID, 'open_wp_seo_description', TRUE); ?></textarea>
 		
 		<?php if ($this->content->is_word_count_too_low($post->post_content)) : ?>				
-		<p><?php echo sprintf(__('<span class="dashicons dashicons-warning pm-wp-seo-fail"></span> The article word count is too low. A minimum of %s words is recommended.', OpenWordPressSEO::TEXT_DOMAIN), OpenWordPressSEOContent::RECOMMENDED_MINIMUM_POST_WORD_COUNT); ?></p>
+		<p><?php echo sprintf(__('<span class="dashicons dashicons-warning open-wp-seo-fail"></span> The article word count is too low. A minimum of %s words is recommended.', OpenWordPressSEO::TEXT_DOMAIN), OpenWordPressSEOContent::RECOMMENDED_MINIMUM_POST_WORD_COUNT); ?></p>
 		<?php endif; ?>
 		
 		<?php if (!$this->content->does_all_title_words_appear_in_content($this->meta->get_meta_title($post->post_title), $post->post_content)) : ?>				
-		<p><?php _e('<span class="dashicons dashicons-warning pm-wp-seo-fail"></span> Not all the words in the title seem to appear in content. Consider adding them.', OpenWordPressSEO::TEXT_DOMAIN); ?></p>
+		<p><?php _e('<span class="dashicons dashicons-warning open-wp-seo-fail"></span> Not all the words in the title seem to appear in content. Consider adding them.', OpenWordPressSEO::TEXT_DOMAIN); ?></p>
 		<?php endif; ?>			
 		
 		</div>
@@ -44,10 +44,10 @@ class OpenWordPressSEOUi {
 	
 	public function create_metabox_serp_preview($post){
 		?>
-		<div class="pm-wp-seo-settings">
+		<div class="open-wp-seo-settings">
 
-		<div class="pm-wp-seo-serp-preview">
-			<div class="pm-wp-seo-preview-title">
+		<div class="open-wp-seo-serp-preview">
+			<div class="open-wp-seo-preview-title">
 			<?php 
 				$title = get_post_meta($post->ID, 'open_wp_seo_title', TRUE); 
 						
@@ -66,10 +66,10 @@ class OpenWordPressSEOUi {
 				echo $title;
 			?>
 			</div>
-			<div class="pm-wp-seo-preview-address">
+			<div class="open-wp-seo-preview-address">
 			<?php echo get_permalink($post->ID); ?>
 			</div>
-			<div class="pm-wp-seo-preview-description">
+			<div class="open-wp-seo-preview-description">
 			<?php 
 				$description = get_post_meta($post->ID, 'open_wp_seo_description', TRUE); 
 				if (empty($description)) {
@@ -103,10 +103,10 @@ class OpenWordPressSEOUi {
 			$too_few_words = $this->content->is_word_count_too_low($post->post_content);
 			
 			if (!$too_few_words && !empty($seo_title) && !empty($seo_description)) {
-				echo '<span title="'.__('SEO for this item is in good condition.', OpenWordPressSEO::TEXT_DOMAIN).'" class="pm-wp-seo-table-icon pm-wp-seo-ok">&#10003;</span>';
+				echo '<span title="'.__('SEO for this item is in good condition.', OpenWordPressSEO::TEXT_DOMAIN).'" class="open-wp-seo-table-icon open-wp-seo-ok">&#10003;</span>';
 			}
 			else {
-				echo '<span title="'.__('SEO for this item needs some work.', OpenWordPressSEO::TEXT_DOMAIN).'" class="pm-wp-seo-table-icon pm-wp-seo-fail">&#10007;</span>';
+				echo '<span title="'.__('SEO for this item needs some work.', OpenWordPressSEO::TEXT_DOMAIN).'" class="open-wp-seo-table-icon open-wp-seo-fail">&#10007;</span>';
 			}
 		}
 	}	

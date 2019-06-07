@@ -13,22 +13,22 @@ class OpenWordPressSEOUiSettings {
 		}		
 		?>
 		
-		<div class="wrap pm-wp-seo-settings-wrap" style="display: none">
+		<div class="wrap open-wp-seo-settings-wrap" style="display: none">
 		
 		<h1><?= esc_html_e('Poor Man\'s WordPress SEO Settings', OpenWordPressSEO::TEXT_DOMAIN); ?></h1>
 					
 		<h2 class="nav-tab-wrapper">
-			<a href="options-general.php?page=pm-wp-seo&tab=main-settings" class="nav-tab pm-wp-seo-navtab nav-tab-active main-settings-tab-button"><span class="dashicons dashicons-star-filled"></span> <?php _e('Main Settings', OpenWordPressSEO::TEXT_DOMAIN); ?></a>
-			<a href="options-general.php?page=pm-wp-seo&tab=automatic-titles" class="nav-tab pm-wp-seo-navtab automatic-titles-tab-button"><span class="dashicons dashicons-admin-settings"></span> <?php _e('Automatic Titles', OpenWordPressSEO::TEXT_DOMAIN); ?></a>
-			<a href="options-general.php?page=pm-wp-seo&tab=sitemaps" class="nav-tab pm-wp-seo-navtab sitemaps-tab-button"><span class="dashicons dashicons-networking"></span> <?php _e('Sitemap', OpenWordPressSEO::TEXT_DOMAIN); ?></a>
-			<a href="options-general.php?page=pm-wp-seo&tab=advanced" class="nav-tab pm-wp-seo-navtab advanced-tab-button"><span class="dashicons dashicons-welcome-learn-more"></span> <?php _e('Advanced', OpenWordPressSEO::TEXT_DOMAIN); ?></a>
+			<a href="options-general.php?page=open-wp-seo&tab=main-settings" class="nav-tab open-wp-seo-navtab nav-tab-active main-settings-tab-button"><span class="dashicons dashicons-star-filled"></span> <?php _e('Main Settings', OpenWordPressSEO::TEXT_DOMAIN); ?></a>
+			<a href="options-general.php?page=open-wp-seo&tab=automatic-titles" class="nav-tab open-wp-seo-navtab automatic-titles-tab-button"><span class="dashicons dashicons-admin-settings"></span> <?php _e('Automatic Titles', OpenWordPressSEO::TEXT_DOMAIN); ?></a>
+			<a href="options-general.php?page=open-wp-seo&tab=sitemaps" class="nav-tab open-wp-seo-navtab sitemaps-tab-button"><span class="dashicons dashicons-networking"></span> <?php _e('Sitemap', OpenWordPressSEO::TEXT_DOMAIN); ?></a>
+			<a href="options-general.php?page=open-wp-seo&tab=advanced" class="nav-tab open-wp-seo-navtab advanced-tab-button"><span class="dashicons dashicons-welcome-learn-more"></span> <?php _e('Advanced', OpenWordPressSEO::TEXT_DOMAIN); ?></a>
 		</h2>
 		
-		<div class="pm-wp-seo-settings">
+		<div class="open-wp-seo-settings">
 		
 			<?php $this->print_notifications(); ?>	
 
-			<div class="pm-wp-seo-settings-tab" id="main-settings" style="display: none">
+			<div class="open-wp-seo-settings-tab" id="main-settings" style="display: none">
 			
 				<h2><span class="dashicons dashicons-admin-users"></span> <?php _e('Actions', OpenWordPressSEO::TEXT_DOMAIN); ?></h2>
 				<form action="admin-ajax.php" method="post">
@@ -54,19 +54,19 @@ class OpenWordPressSEOUiSettings {
 				<form action="options.php" method="post">
 					<?php
 						submit_button(__('Save settings', OpenWordPressSEO::TEXT_DOMAIN));
-						settings_fields('pm-wp-seo');
-						do_settings_sections('pm-wp-seo');
+						settings_fields('open-wp-seo');
+						do_settings_sections('open-wp-seo');
 						submit_button(__('Save settings', OpenWordPressSEO::TEXT_DOMAIN));
 					?>
 				</form>
 				
 			</div>
 			
-			<div class="pm-wp-seo-settings-tab" id="automatic-titles" style="display: none">
+			<div class="open-wp-seo-settings-tab" id="automatic-titles" style="display: none">
 				<form action="options.php" method="post">
 					<?php
 						submit_button(__('Save settings', OpenWordPressSEO::TEXT_DOMAIN));
-						settings_fields('pm-wp-seo-automatic-titles');
+						settings_fields('open-wp-seo-automatic-titles');
 						echo '<table class="form-table">';		
 						$this->print_automatic_titles_options_header();
 						$this->print_automatic_title_instructions();
@@ -78,23 +78,23 @@ class OpenWordPressSEOUiSettings {
 				</form>
 			</div>
 			
-			<div class="pm-wp-seo-settings-tab" id="sitemaps" style="display: none">
+			<div class="open-wp-seo-settings-tab" id="sitemaps" style="display: none">
 				<form action="options.php" method="post">
 					<?php
 						submit_button(__('Save settings', OpenWordPressSEO::TEXT_DOMAIN));
-						settings_fields('pm-wp-seo-sitemap');
-						do_settings_sections('pm-wp-seo-sitemap');
+						settings_fields('open-wp-seo-sitemap');
+						do_settings_sections('open-wp-seo-sitemap');
 						submit_button(__('Save settings', OpenWordPressSEO::TEXT_DOMAIN));
 					?>
 				</form>
 			</div>
 
-			<div class="pm-wp-seo-settings-tab" id="advanced" style="display: none">
+			<div class="open-wp-seo-settings-tab" id="advanced" style="display: none">
 				<form action="options.php" method="post">
 					<?php
 						submit_button(__('Save settings', OpenWordPressSEO::TEXT_DOMAIN));
-						settings_fields('pm-wp-seo-advanced');
-						do_settings_sections('pm-wp-seo-advanced');
+						settings_fields('open-wp-seo-advanced');
+						do_settings_sections('open-wp-seo-advanced');
 						submit_button(__('Save settings', OpenWordPressSEO::TEXT_DOMAIN));
 					?>
 				</form>
@@ -218,8 +218,8 @@ class OpenWordPressSEOUiSettings {
 		echo '<textarea maxlength="160" name="open_wp_seo_frontpage_description" id="open_wp_seo_description">'.$frontpage_description.'</textarea>';
 		?>		
 		
-		<div class="pm-wp-seo-serp-preview">
-			<div class="pm-wp-seo-preview-title">
+		<div class="open-wp-seo-serp-preview">
+			<div class="open-wp-seo-preview-title">
 			<?php 
 				$title = get_option('open_wp_seo_frontpage_title'); 
 				if (empty($title)) {
@@ -233,10 +233,10 @@ class OpenWordPressSEOUiSettings {
 				echo $title;
 			?>
 			</div>
-			<div class="pm-wp-seo-preview-address">
+			<div class="open-wp-seo-preview-address">
 			<?php echo get_bloginfo('url'); ?>
 			</div>
-			<div class="pm-wp-seo-preview-description">
+			<div class="open-wp-seo-preview-description">
 			<?php 
 				$description = $frontpage_description; 
 				
@@ -326,7 +326,7 @@ class OpenWordPressSEOUiSettings {
 		$sitemap_priorities = get_option('open_wp_seo_sitemap_prioritities');
 		
 		?>
-		<table class="pm-wp-seo-sitemap-priorities">
+		<table class="open-wp-seo-sitemap-priorities">
 		
 		<tr>
 			<th><?php _e('Item type', OpenWordPressSEO::TEXT_DOMAIN); ?></th>
@@ -409,7 +409,7 @@ class OpenWordPressSEOUiSettings {
 	}
 	
 	private function print_automatic_title_instructions() {
-		echo '<div class="pm-wp-seo-instructions"><p><span class="dashicons dashicons-info"></span> ';
+		echo '<div class="open-wp-seo-instructions"><p><span class="dashicons dashicons-info"></span> ';
 		_e('Use the following variables in the titles to print out post or site related information:', OpenWordPressSEO::TEXT_DOMAIN);
 		echo '</p><ul>';
 		echo '<li><strong>%article_name%</strong> - '.__('The name of the item', OpenWordPressSEO::TEXT_DOMAIN).'</li>';
