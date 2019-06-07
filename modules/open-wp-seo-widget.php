@@ -23,7 +23,7 @@ class OpenWordPressSEOWidget {
 	public function print_dashboard_widget() {
 		$indexing_denied = get_option('blog_public') === '0';
 		
-		echo '<div class="pm-wp-seo-dashboard-widget">';
+		echo '<div class="open-wp-seo-dashboard-widget">';
 		echo '<table>';
 
 		echo '<tr><td><strong>'.__('Overall SEO score', OpenWordPressSEO::TEXT_DOMAIN).'</strong></td><td><strong>'.$this->get_overall_seo_status_score_text().'</strong></td></tr>';
@@ -56,7 +56,7 @@ class OpenWordPressSEOWidget {
 			$score_text = __('OK', OpenWordPressSEO::TEXT_DOMAIN);
 		}
 		
-		$style = $score > 0.6 ? 'pm-wp-seo-ok' : 'pm-wp-seo-fail';
+		$style = $score > 0.6 ? 'open-wp-seo-ok' : 'open-wp-seo-fail';
 		
 		return "<span class=\"{$style}\">{$score_text}</span>";
 	}
@@ -193,14 +193,14 @@ class OpenWordPressSEOWidget {
 	
 	private function get_seo_success_style($total_count, $ok_count) {
 		if ($total_count === 0) {
-			return 'pm-wp-seo-ok';
+			return 'open-wp-seo-ok';
 		}
 		
 		if ($total_count === $ok_count) {
-			return 'pm-wp-seo-ok';
+			return 'open-wp-seo-ok';
 		}
 		
-		return 'pm-wp-seo-fail';
+		return 'open-wp-seo-fail';
 	}
 	
 	private function get_sitemap_status() {
@@ -211,15 +211,15 @@ class OpenWordPressSEOWidget {
 		$sitemap_created_time = get_option('open_wp_seo_sitemap_create_time', FALSE);
 	
 		if ($sitemap_enabled !== OpenWordPressSEO::OPTION_ON) {
-			return '<span class="pm-wp-seo-fail">'. sprintf(__('Not enabled. <a href="%s">Enable here</a>', OpenWordPressSEO::TEXT_DOMAIN), $settings_url) . '</span>';
+			return '<span class="open-wp-seo-fail">'. sprintf(__('Not enabled. <a href="%s">Enable here</a>', OpenWordPressSEO::TEXT_DOMAIN), $settings_url) . '</span>';
 		}
 		
 		if ($sitemap_updated === OpenWordPressSEO::STATUS_ERROR) {
-			return '<span class="pm-wp-seo-fail">' . __('Error', OpenWordPressSEO::TEXT_DOMAIN) . '</span>';
+			return '<span class="open-wp-seo-fail">' . __('Error', OpenWordPressSEO::TEXT_DOMAIN) . '</span>';
 		}
 		
 		if (($sitemap_updated === OpenWordPressSEO::STATUS_OK || $sitemap_updated === FALSE) && $sitemap_created_time !== FALSE) {
-			return '<span class="pm-wp-seo-ok">' . date_i18n(get_option('date_format') . ' ' . get_option('time_format'), $sitemap_created_time) . '</span>';
+			return '<span class="open-wp-seo-ok">' . date_i18n(get_option('date_format') . ' ' . get_option('time_format'), $sitemap_created_time) . '</span>';
 		}	
 	}
 	

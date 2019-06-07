@@ -2,7 +2,7 @@
 /**
  * Module for compression.
  */
-require_once(__DIR__.'/../pm-wp-seo.php');
+require_once(__DIR__.'/../open-wp-seo.php');
  
 if (!defined('ABSPATH')) return;
 
