@@ -6,6 +6,10 @@ This is a free and open-source alternative to the most popular WordPress SEO plu
 
 Contribution is welcome. However, contact tzri before coding new features. That way they are more likely to be accepted.
 
+## Download
+
+The latest release can be downloaded here: [zip](https://github.com/tzri/open-wordpress-seo/archive/v1.0.zip) or [tar.gz](https://github.com/tzri/open-wordpress-seo/archive/v1.0.tar.gz).
+
 ## Features
 
 ### Including
