@@ -39,6 +39,6 @@ After activation it is recommended to setup the plugin options by going to *Sett
 - Google Analytics visitor tracking support.
 - ... and other features.
 
-## Contribution
+## Contribute
 
-Contribution is welcome. However, contact tzri before coding new features and tell what you are planning. That way they are more likely to be accepted.
+Contribution is very welcome. However, contact [tzri](https://github.com/tzri) before coding new features and tell what you are planning. That way they are more likely to be accepted.
