@@ -4,7 +4,9 @@
 
 This is a free and open-source alternative to the most popular WordPress SEO plugins in the market. It packs all the most important features and is simple to use.
 
-Contribution is welcome. However, contact tzri before coding new features. That way they are more likely to be accepted.
+## Contribution
+
+Contribution is welcome. However, contact tzri before coding new features and tell what you are planning. That way they are more likely to be accepted.
 
 ## Download
 
@@ -36,7 +38,7 @@ The latest release can be downloaded here: [zip](https://github.com/tzri/open-wo
 
 ### Marketing pitch
 
-Command how you show up in search results! With Open WordPress SEO search engines find your content more easily, index your content faster, and give your site better ranking. Download today or even better download NOW.
+Command how you show up in search results! With Open WordPress SEO search engines find your content more easily, index your content faster, and give your site better ranking. Download today or even better - download NOW.
 
 ## Installation
 
