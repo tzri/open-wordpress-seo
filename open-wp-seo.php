@@ -2,7 +2,7 @@
 /*
 Plugin Name: Open WordPress SEO
 Plugin URI: https://github.com/tzri/open-wordpress-seo
-Description: Open WordPress SEO is a free open-source WordPress SEO plugin.
+Description: The free open-source WordPress SEO plugin.
 Version: 1.0.0
 Author: Moki-Moki Ios
 Author URI: http://mokimoki.net/
@@ -29,7 +29,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
  * Open WordPress SEO
- * The free open-source alternative of SEO plugins.
+ * The free open-source WordPress SEO plugin.
  *
  * @version 1.0.0
  */
