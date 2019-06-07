@@ -4,10 +4,6 @@
 
 This is a free and open-source alternative to the most popular WordPress SEO plugins in the market. It packs all the most important features and is simple to use.
 
-## Contribution
-
-Contribution is welcome. However, contact tzri before coding new features and tell what you are planning. That way they are more likely to be accepted.
-
 ## Download &amp; Install
 
 The latest version can be installed in two ways:
@@ -17,7 +13,7 @@ The latest version can be installed in two ways:
 2. **Manually Download the Package and Install**
      - [Free download](https://downloads.wordpress.org/plugin/open-wp-seo.zip) is available via WordPress.org plugins portal. Download the .zip file and extract the folder to your plugins directory. Then activate the plugin on control panel's Installed Plugins section.
  
-After activation it is recommended to setup the plugin options by going to *Settings -> Open WordPress SEO*. It only takes a couple of minutes.
+After activation it is recommended to setup the plugin options by going to *Settings -> Open WordPress SEO*. It only takes a couple of minutes and is well worth it.
 
 ## Features
 
@@ -43,10 +39,6 @@ After activation it is recommended to setup the plugin options by going to *Sett
 - Google Analytics visitor tracking support.
 - ... and other features.
 
-### Marketing pitch
+## Contribution
 
-Command how you show up in search results! With Open WordPress SEO search engines find your content more easily, index your content faster, and give your site better ranking. Download today or even better - download NOW.
-
-## Installation
-
-Download and copy the plugin folder to your plugins directory. Activate, adjust settings, and enjoy.
+Contribution is welcome. However, contact tzri before coding new features and tell what you are planning. That way they are more likely to be accepted.
