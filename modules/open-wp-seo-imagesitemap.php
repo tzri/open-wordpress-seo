@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) return;
 
 require_once(ABSPATH . 'wp-admin/includes/file.php');
 
-class PoorMansWordPressSEOImageSitemap {
+class OpenWordPressSEOImageSitemap {
 
 	const IMAGE_SITEMAP_FILENAME = 'image-sitemap.xml';
 

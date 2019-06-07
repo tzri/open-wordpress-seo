@@ -1,12 +1,12 @@
 <?php
 /*
 Plugin Name: Open WordPress SEO
-Plugin URI: http://mokimoki.net/poor-mans-wordpress-seo/
-Description: This is a wallet-friendly alternative to plugins such as All In One SEO Pack and Yoast SEO. It packs all the most important features and is simple to use.
-Version: 1.0.17
+Plugin URI: https://github.com/tzri/open-wordpress-seo
+Description: This is a free and open-source alternative to plugins such as All In One SEO Pack and Yoast SEO. It packs all the most important features and is simple to use.
+Version: 1.0.0
 Author: Moki-Moki Ios
 Author URI: http://mokimoki.net/
-Text Domain: poor-mans-wp-seo
+Text Domain: open-wp-seo
 License: GPL3
 */
 
@@ -29,9 +29,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
  * Open WordPress SEO
- * The free alternative of SEO plugins.
+ * The free open-source alternative of SEO plugins.
  *
- * @version 1.0.17
+ * @version 1.0.0
  */
 
 if (!defined('ABSPATH')) return;
@@ -63,7 +63,7 @@ class OpenWordPressSEO {
 	const OPTION_OFF = 'off';
 	const STATUS_OK = 'ok';
 	const STATUS_ERROR = 'error';
-	const TEXT_DOMAIN = 'poor-mans-wp-seo';
+	const TEXT_DOMAIN = 'open-wp-seo';
 	
 	private static $instance;
 	private static $ui;
@@ -461,13 +461,13 @@ class OpenWordPressSEO {
 	public function plugin_activation_notice() {
 		if (get_transient('pm_wp_seo_activation_notice')) {
 			$settings_url = $settings_url = get_admin_url() . OpenWordPressSEO::ADMIN_SETTINGS_URL;
-			echo '<div class="notice updated"><p><strong>'.sprintf(__('Poor Man\'s WordPress SEO activated. Please configure it at <a href="%s">settings page</a>.', self::TEXT_DOMAIN), $settings_url).'</strong></p></div>';	
+			echo '<div class="notice updated"><p><strong>'.sprintf(__('Open WordPress SEO activated. Please configure it at <a href="%s">settings page</a>.', self::TEXT_DOMAIN), $settings_url).'</strong></p></div>';	
 		}		
 	}
 	
 	public function print_seo_credit_link() {
 		if (get_option('pm_wp_seo_show_seo_credits', FALSE) === self::OPTION_ON && is_front_page()) {
-			echo '<div style="text-align: center; font-size: 80%">WordPress SEO Powered by <a href="http://mokimoki.net/poor-mans-wordpress-seo/">Poor Man\'s WordPress SEO</a></div>';
+			echo '<div style="text-align: center; font-size: 80%">WordPress SEO Powered by <a href="https://github.com/tzri/open-wordpress-seo">Open WordPress SEO</a></div>';
 		}		
 	}
 	
