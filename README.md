@@ -13,10 +13,12 @@ Contribution is welcome. However, contact tzri before coding new features and te
 The latest version can be installed in two ways:
 
 1. **Automatically install from WordPress plugins directory**
-     - Go to Plugins → Add new on your WordPress control panel. Search for Open WordPress SEO and click Install now.
+     - Go to Plugins → Add new on your WordPress control panel. Search for **Open WordPress SEO** and click Install now.
 2. **Manually Download the Package and Install**
      - [Free download](https://downloads.wordpress.org/plugin/open-wp-seo.zip) is available via WordPress.org plugins portal. Download the .zip file and extract the folder to your plugins directory. Then activate the plugin on control panel's Installed Plugins section.
  
+After activation it is recommended to setup the plugin options by going to *Settings -> Open WordPress SEO*. It only takes a couple of minutes.
+
 ## Features
 
 ### Including
