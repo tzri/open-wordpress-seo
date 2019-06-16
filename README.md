@@ -17,6 +17,9 @@ After activation it is recommended to setup the plugin options by going to *Sett
 
 ## Features
 
+### Overview
+The plugin offers you the possibility to easily manipulate important metadata, gain insight to the SEO status of various aspects of your site and how improve them. In addition, the plugin automatically performs grunt operations that are vital for good SEO, such as sitemap creation and pinging.
+
 ### Including
 - Possibility to set post and page meta titles and descriptions either for any post type or specifically for individual posts.
 - Generates meta description and keywords automatically when needed.
@@ -41,4 +44,4 @@ After activation it is recommended to setup the plugin options by going to *Sett
 
 ## Contribute
 
-Contribution is very welcome. However, contact [tzri](https://github.com/tzri) before coding new features and tell what you are planning. That way they are more likely to be accepted.
+Contribution is very welcome. Please see open issues. However, contact [tzri](https://github.com/tzri) before coding new features and tell what you are planning. That way they are more likely to be accepted.
