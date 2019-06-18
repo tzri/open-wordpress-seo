@@ -4,6 +4,10 @@
 
 This is a free and open-source alternative to the most popular WordPress SEO plugins in the market. It packs all the most important features and is simple to use.
 
+## Screenshots
+
+You can find screenshots in their own folder [here](https://github.com/tzri/open-wordpress-seo/tree/master/screenshots).
+
 ## Download &amp; Install
 
 The latest version can be installed in two ways:
