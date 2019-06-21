@@ -2,11 +2,11 @@
 
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/tzri/open-wordpress-seo.svg?label=Latest%20version) ![GitHub last commit](https://img.shields.io/github/last-commit/tzri/open-wordpress-seo.svg?label=Last%20commit) ![WordPress Plugin Downloads](https://img.shields.io/wordpress/plugin/dt/open-wp-seo.svg?color=%2366cc66)
 
-This is a free and open-source alternative to the most popular WordPress SEO plugins in the market. It packs all the most important features and is simple to use.
+This is a free and open-source alternative to the most popular WordPress SEO plugins in the market. It packs all the important features and is simple to use.
 
 ## Screenshots
 
-You can find screenshots in their own folder [here](https://github.com/tzri/open-wordpress-seo/tree/master/screenshots).
+You can find screenshots in their own folder [here](https://github.com/tzri/open-wordpress-seo/tree/master/screenshots) or visit the [homepage](https://openwpseo.com/).
 
 ## Download &amp; Install
 
