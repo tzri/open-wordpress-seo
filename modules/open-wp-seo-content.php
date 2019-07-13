@@ -41,4 +41,10 @@ class OpenWordPressSEOContent {
 		return preg_replace('/[^A-Za-z0-9\-]/', '', $text);
 	}
 	
+	public function does_content_contain_hyperlinks($content) {		
+		return (stristr($content, 'http')
+				||stristr($content, 'www.')
+				||stristr($content, 'ftp.'));
+	}
+	
 }
