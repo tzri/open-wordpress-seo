@@ -8,22 +8,22 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This is a free and open-source alternative to the most popular WordPress SEO plugins in the market.
+This is a new free and open-source alternative to the most popular WordPress SEO plugins in the market. 
 
 == Description ==
 
-The free open-source WordPress SEO plugin. It packs all the most important features and is simple to use.
+This is the open-source and free SEO Plugin For WordPress. The plugin is simple to use and has all the important features, and more. You can find screenshots and more information at [homepage](https://openwpseo.com/).
 
 == Features ==
 
 Open WordPress SEO is an all-in-one solution for your WordPress SEO needs. 
 
-- The plugin adds a status screen to your dashboard to show if there is any action you need to take to improve SEO.
-- Post editor has a new section to fine-tune your post's meta tags. The section will also display suggestions on how to optimize the content your are creating.
-- Routine actions such as creating and updating a sitemap and notifying search-engines about new content are taken care of automatically.
+- View SEO status on dashboard
+- SEO tools in post edit
+- Analyzes your content, gives tips
+- Automated routine actions
+- Actively developed
 
-With Open WordPress SEO search engines find your content more easily, index your content faster, and give your site better ranking.
+By using Open WordPress SEO search engines find your pages more easily, index your posts faster, and rank your site higher.
 
-== Resources ==
-
-See screenshots and more information on [homepage](https://mokimoki.net/open-wordpress-seo/) and contribute to development at [GitHub](https://github.com/tzri/open-wordpress-seo).
+You can contribute to development in [GitHub](https://github.com/tzri/open-wordpress-seo).
