@@ -32,6 +32,10 @@ class OpenWordPressSEOPing {
 	private function send_ping($ping_time_option, $ping_url_base) {
 		$last_ping_time = get_option($ping_time_option, 0);
 		
+		if (!is_integer($last_ping_time)) {
+			$last_ping_time = 0;
+		}
+		
 		if ($last_ping_time + self::PING_MIN_INTERVAL > time()) {
 			return;
 		}

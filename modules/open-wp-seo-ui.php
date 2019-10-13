@@ -36,10 +36,6 @@ class OpenWordPressSEOUi {
 		
 		<?php if (!$this->content->does_all_title_words_appear_in_content($this->meta->get_meta_title($post->post_title), $post->post_content)) : ?>				
 		<p><?php _e('<span class="dashicons dashicons-warning open-wp-seo-fail"></span> Not all the words in the title seem to appear in content. Consider adding them.', OpenWordPressSEO::TEXT_DOMAIN); ?></p>
-		<?php endif; ?>	
-
-		<?php if (!$this->content->does_content_contain_hyperlinks($post->post_content)) : ?>
-		<p><?php _e('<span class="dashicons dashicons-warning open-wp-seo-fail"></span> The content does not contain any hyperlinks. Consider adding them. ', OpenWordPressSEO::TEXT_DOMAIN); ?></p>
 		<?php endif; ?>			
 		
 		</div>
@@ -105,9 +101,8 @@ class OpenWordPressSEOUi {
 			$post = get_post($post_id);
 			
 			$too_few_words = $this->content->is_word_count_too_low($post->post_content);
-			$hyperlinks = $this->content->does_content_contain_hyperlinks($post->post_content);
 			
-			if (!$too_few_words && !hyperlinks && !empty($seo_title) && !empty($seo_description)) {
+			if (!$too_few_words && !empty($seo_title) && !empty($seo_description)) {
 				echo '<span title="'.__('SEO for this item is in good condition.', OpenWordPressSEO::TEXT_DOMAIN).'" class="open-wp-seo-table-icon open-wp-seo-ok">&#10003;</span>';
 			}
 			else {
