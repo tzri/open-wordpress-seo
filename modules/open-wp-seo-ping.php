@@ -32,6 +32,7 @@ class OpenWordPressSEOPing {
 	private function send_ping($ping_time_option, $ping_url_base) {
 		$last_ping_time = get_option($ping_time_option, 0);
 		
+		// FIXME is this working correctly?
 		if (!is_integer($last_ping_time)) {
 			$last_ping_time = 0;
 		}

@@ -204,6 +204,13 @@ class OpenWordPressSEOMeta {
 		else if (is_category()) {
 			$canonical_url = get_category_link($current_term->term_id);
 		}
+		else if (is_front_page()) {
+			$canonical_url = get_site_url();
+		}
+		else if (is_single()) {
+			$canonical_url = get_permalink();
+
+		}
 		
 		if (!empty($canonical_url)) {
 			echo "<link rel=\"canonical\" href=\"{$canonical_url}\" />\n";
