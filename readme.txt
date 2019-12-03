@@ -12,7 +12,7 @@ This is a new free and open-source alternative to the most popular WordPress SEO
 
 == Description ==
 
-This is the open-source and free SEO Plugin For WordPress. The plugin is simple to use and packs all the important features.
+This is the open-source and free SEO Plugin For WordPress. The plugin is simple to use and has all the important features, and more. You can find screenshots and more information at [homepage](https://openwpseo.com/).
 
 You can find screenshots and more information at [homepage](https://openwpseo.com/).
 
