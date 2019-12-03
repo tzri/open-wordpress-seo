@@ -40,6 +40,7 @@ class OpenWordPressSEOUi {
 
 		<?php if (!$this->content->content_contains_hyperlinks($post->post_content)) : ?>
 		<p><?php _e('<span class="dashicons dashicons-warning open-wp-seo-fail"></span> The content does not contain any hyperlinks. Consider adding them. ', OpenWordPressSEO::TEXT_DOMAIN); ?></p>
+
 		<?php endif; ?>			
 		
 		</div>
