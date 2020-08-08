@@ -184,27 +184,33 @@ class OpenWordPressSEOUiSettings {
 			<?php
 		}
 
-		if (get_option('open_wp_seo_ping_google_time', 0) + 300 > time()) : ?>
+		// These may contain time or string "error".
+		$ping_google_time = get_option('open_wp_seo_ping_google_time', 0);
+		$ping_bing_time = get_option('open_wp_seo_ping_bing_time', 0);
+		
+		if ($ping_google_time === OpenWordPressSEO::STATUS_ERROR) {
+		?>
+			<div class="notice error">
+				<p><strong><?php _e('Tried to notify Google but failed.', 'open-wp-seo'); ?></strong></p>
+			</div>					
+		<?php
+		}
+		else if ($ping_google_time + 300 > time()) : ?>
 			<div class="notice updated">
 				<p><strong><?php _e('Google was recently notified about changes.', 'open-wp-seo'); ?></strong></p>
 			</div>
 		<?php endif;
 
-		if (get_option('open_wp_seo_ping_bing_time', 0) + 300 > time()) : ?>
+		if ($ping_bing_time === OpenWordPressSEO::STATUS_ERROR) {
+		?>
+			<div class="notice error">
+				<p><strong><?php _e('Tried to notify Bing but failed.', 'open-wp-seo'); ?></strong></p>
+			</div>			
+		<?php
+		}
+		else if ($ping_bing_time + 300 > time()) : ?>
 			<div class="notice updated">
 				<p><strong><?php _e('Bing was recently notified about changes.', 'open-wp-seo'); ?></strong></p>
-			</div>
-		<?php endif;
-
-		if (get_option('open_wp_seo_ping_google_time', FALSE) == OpenWordPressSEO::STATUS_ERROR) : ?>
-			<div class="notice error">
-				<p><strong><?php _e('There was a problem notifying Google about changes.', 'open-wp-seo'); ?></strong></p>
-			</div>
-		<?php endif;
-
-		if (get_option('open_wp_seo_ping_bing_time', FALSE) == OpenWordPressSEO::STATUS_ERROR) : ?>
-			<div class="notice error">
-				<p><strong><?php _e('There was a problem notifying Bing about changes.', 'open-wp-seo'); ?></strong></p>
 			</div>
 		<?php endif;
 	}
