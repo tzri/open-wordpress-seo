@@ -2,7 +2,7 @@
 Contributors: mokimoki
 Tags: seo, google, sitemap, optimization, facebook, compression
 Requires at least: 3.0.1
-Tested up to: 5.2.1
+Tested up to: 5.5
 Requires PHP: 5.2.4
 Stable tag: 1.0.1
 License: GPLv2 or later
@@ -12,7 +12,7 @@ This is a new free and open-source alternative to the most popular WordPress SEO
 
 == Description ==
 
-This is the open-source and free SEO Plugin For WordPress. The plugin is simple to use and has all the important features, and more. You can find screenshots and more information at [homepage](https://openwpseo.com/).
+This is the open-source and free SEO Plugin For WordPress. The plugin is simple to use and packs all the important features.
 
 You can find screenshots and more information at [homepage](https://openwpseo.com/).
 
