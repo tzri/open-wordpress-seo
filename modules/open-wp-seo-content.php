@@ -21,7 +21,7 @@ class OpenWordPressSEOContent {
 			$title_word = strtolower($this->remove_special_characters($title_word));
 			foreach ($content_words as $content_word) {
 				$content_word = $this->remove_special_characters($content_word);
-				if (levenshtein($title_word, $content_word) < 4) {
+				if (levenshtein(substr($title_word, 0, 255), substr($content_word, 0, 255)) < 4) {
 					$title_words_in_content++;
 					break;
 				}
