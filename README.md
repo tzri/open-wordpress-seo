@@ -2,7 +2,7 @@
 
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/tzri/open-wordpress-seo.svg?label=Latest%20version) ![GitHub last commit](https://img.shields.io/github/last-commit/tzri/open-wordpress-seo.svg?label=Last%20commit) ![WordPress Plugin Downloads](https://img.shields.io/wordpress/plugin/dt/open-wp-seo)
 
-This is a free and open-source alternative to the most popular WordPress SEO plugins in the market. It packs all the most important features and is simple to use.
+This is a **free** and **open-source** alternative to the most popular WordPress SEO plugins in the market. It packs all the most important features and is simple to use.
 
 ## Contribution
 
@@ -38,7 +38,7 @@ The latest release can be downloaded here: [zip](https://github.com/tzri/open-wo
 
 ### Marketing pitch
 
-Command how you show up in search results! With Open WordPress SEO search engines find your content more easily, index your content faster, and give your site better ranking. Download today or even better - download NOW.
+Command how you show up in search results! With Open WordPress SEO search engines find your content more easily, index your content faster, and give your site better ranking. Download your **free WordPress SEO** plugin today or even better - download NOW.
 
 ## Installation
 
