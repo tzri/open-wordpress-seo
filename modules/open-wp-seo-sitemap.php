@@ -80,7 +80,7 @@ class OpenWordPressSEOSitemap {
 		$sitemap_xml->addAttribute('xmlns', 'http://www.sitemaps.org/schemas/sitemap/0.9');
 		
 		$post_query_arguments = array(
-			'post_type' => array('post', 'page'),
+			'post_type' => array('any'),
 			'post_status' => 'publish',
 			'posts_per_page' => -1
 		);
