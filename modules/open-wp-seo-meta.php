@@ -49,6 +49,10 @@ class OpenWordPressSEOMeta {
 	}
 	
 	private function get_meta_description() {
+		return htmlentities(get_meta_description_unencoded());
+	}
+	
+	private function get_meta_description_unencoded() {
 		$front_page_description_option = get_option('open_wp_seo_frontpage_description');
 		if (is_front_page() && !empty($front_page_description_option)) {
 			return $front_page_description_option;
