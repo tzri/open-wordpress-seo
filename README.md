@@ -6,7 +6,7 @@ This is a **free** and **open-source** alternative to the most popular WordPress
 
 ## Contribution
 
-Contribution is welcome. However, contact tzri before coding new features and tell what you are planning. That way they are more likely to be accepted.
+Contribution is welcome. However, contact [tzri](https://mikemoisio.ai/) ([Mike](https://mikemoisio.ai/)) before coding new features and tell what you are planning. That way they are more likely to be accepted.
 
 ## Download
 
@@ -43,3 +43,4 @@ Command how you show up in search results! With Open WordPress SEO search engine
 ## Installation
 
 Download and copy the plugin folder to your plugins directory. Activate, adjust settings, and enjoy.
+
