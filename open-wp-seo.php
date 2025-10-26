@@ -4,14 +4,14 @@ Plugin Name: Open WordPress SEO
 Plugin URI: https://github.com/tzri/open-wordpress-seo
 Description: The free open-source WordPress SEO plugin.
 Version: 1.0.1
-Author: Moki-Moki Ios
-Author URI: http://mokimoki.net/
+Author: Mike Moisio
+Author URI: http://mikemoisio.ai/
 Text Domain: open-wp-seo
 License: GPL3
 */
 
 /*
-Copyright (C) 2017 Moki-Moki Ios http://mokimoki.net/
+Copyright (C) 2017 Mike Moisio http://mikemoisio.ai/
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -503,3 +503,4 @@ class OpenWordPressSEO {
 		return $urls;
 	}
 }
+
