@@ -1,5 +1,5 @@
 === Open WordPress SEO ===
-Contributors: mokimoki
+Contributors: Mike Moisio (mikemoisio.ai)
 Tags: seo, google, sitemap, optimization, facebook, compression
 Requires at least: 3.0.1
 Tested up to: 5.5
@@ -14,7 +14,7 @@ This is a new free and open-source alternative to the most popular WordPress SEO
 
 This is the open-source and free SEO Plugin For WordPress. The plugin is simple to use and packs all the important features.
 
-You can find screenshots and more information at [homepage](https://openwpseo.com/).
+You can find screenshots and more information at [homepage](https://mikemoisio.ai/open-wp-seo/).
 
 == Features ==
 

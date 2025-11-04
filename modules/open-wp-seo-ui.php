@@ -7,6 +7,7 @@ if (!defined('ABSPATH')) return;
 class OpenWordPressSEOUi {
 	
 	private $content;
+	private $meta;
 	
 	public function __construct() {
 		$this->content = new OpenWordPressSEOContent();
