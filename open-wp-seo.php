@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Open WordPress SEO
-Plugin URI: https://github.com/tzri/open-wordpress-seo
+Plugin URI: https://mikemoisio.ai/open-wordpress-seo/
 Description: The free open-source WordPress SEO plugin.
-Version: 1.0.1
+Version: 1.0.2
 Author: Mike Moisio
-Author URI: http://mikemoisio.ai/
+Author URI: https://mikemoisio.ai/
 Text Domain: open-wp-seo
 License: GPL3
 */
