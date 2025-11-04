@@ -31,6 +31,12 @@ class OpenWordPressSEOUi {
 		<p><strong><?php _e('Meta Description', OpenWordPressSEO::TEXT_DOMAIN); ?></strong></p>
 		<textarea maxlength="160" id="open_wp_seo_description" name="open_wp_seo_description"><?php echo get_post_meta($post->ID, 'open_wp_seo_description', TRUE); ?></textarea>
 		
+		<p>
+			<strong><?php _e('Head Code', OpenWordPressSEO::TEXT_DOMAIN); ?></strong> 
+			<?php echo '<span class="dashicons dashicons-editor-help post-settings info"><span class="description">'. htmlentities(__('Warning! This code is included in the <head> section of the post/page. For schema.org snippets etc. Use at your own risk!', 'open-wp-seo')) .'</span>'; ?>
+		</p>
+		<textarea id="open_wp_seo_head_code" name="open_wp_seo_head_code"><?php echo get_post_meta($post->ID, 'open_wp_seo_head_code', TRUE); ?></textarea>
+
 		<?php if ($this->content->is_word_count_too_low($post->post_content)) : ?>				
 		<p><?php echo sprintf(__('<span class="dashicons dashicons-warning open-wp-seo-fail"></span> The article word count is too low. A minimum of %s words is recommended.', OpenWordPressSEO::TEXT_DOMAIN), OpenWordPressSEOContent::RECOMMENDED_MINIMUM_POST_WORD_COUNT); ?></p>
 		<?php endif; ?>

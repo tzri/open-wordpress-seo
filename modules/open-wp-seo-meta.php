@@ -47,7 +47,14 @@ class OpenWordPressSEOMeta {
 			echo "<meta name=\"description\" content=\"{$description}\" />\n";
 		}
 	}
-	
+
+	public function print_head_code() {
+		$head_code = $this->get_head_code();
+		if (!empty($head_code)) {
+			echo $head_code . "\n";
+		}
+	}
+
 	private function get_meta_description() {
 		return htmlentities($this->get_meta_description_unencoded());
 	}
@@ -78,6 +85,11 @@ class OpenWordPressSEOMeta {
 		}
 		
 		return $description;
+	}
+
+	private function get_head_code() {
+		global $post;
+		return get_post_meta($post->ID, 'open_wp_seo_head_code', TRUE);
 	}
 	
 	public function print_meta_opengraph() {
