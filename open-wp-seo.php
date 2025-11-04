@@ -31,7 +31,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * Open WordPress SEO
  * The free open-source WordPress SEO plugin.
  *
- * @version 1.0.1
+ * @version 1.0.2
  */
 
 if (!defined('ABSPATH')) return;
