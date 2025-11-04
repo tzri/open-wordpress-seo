@@ -10,7 +10,7 @@ Contribution is welcome. However, contact [tzri](https://mikemoisio.ai/) ([Mike]
 
 ## Download
 
-The latest release can be downloaded here: [zip]([https://github.com/tzri/open-wordpress-seo/archive/v1.0.zip](https://github.com/tzri/open-wordpress-seo/archive/refs/heads/master.zip)).
+The latest release can be downloaded here: [zip archive](https://github.com/tzri/open-wordpress-seo/archive/refs/heads/master.zip).
 
 ## Features
 
@@ -43,5 +43,6 @@ Command how you show up in search results! With Open WordPress SEO search engine
 ## Installation
 
 Download and copy the plugin folder to your plugins directory. Activate, adjust settings, and enjoy.
+
 
 
