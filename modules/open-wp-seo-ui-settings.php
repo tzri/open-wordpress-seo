@@ -16,7 +16,7 @@ class OpenWordPressSEOUiSettings {
 
 		<div class="wrap open-wp-seo-settings-wrap" style="display: none">
 
-		<h1><?= esc_html_e('Open WordPress SEO Settings', 'open-wp-seo'); ?></h1>
+		<h1><?= esc_html__('Open WordPress SEO Settings', 'open-wp-seo'); ?></h1>
 
 		<h2 class="nav-tab-wrapper">
 			<a href="options-general.php?page=open-wp-seo&tab=main-settings" class="nav-tab open-wp-seo-navtab nav-tab-active main-settings-tab-button"><span class="dashicons dashicons-star-filled"></span> <?php _e('Main Settings', 'open-wp-seo'); ?></a>
@@ -451,3 +451,4 @@ class OpenWordPressSEOUiSettings {
 	}
 
 }
+
