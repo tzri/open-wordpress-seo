@@ -1,3 +1,5 @@
+<img width="280px" src="https://wpgod.com/wp-content/uploads/open-wp-seo-wordpress-plugin-dark-scaled.png" alt="Free, Lightweight WordPress SEO Plugin"/>
+
 # Open WordPress SEO
 
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/tzri/open-wordpress-seo.svg?label=Latest%20version) ![GitHub last commit](https://img.shields.io/github/last-commit/tzri/open-wordpress-seo.svg?label=Last%20commit)
@@ -6,7 +8,7 @@ This is a **free** and **open-source** alternative to the most popular WordPress
 
 ## Contribution
 
-Contribution is welcome. However, contact [tzri](https://mikemoisio.ai/) ([Mike](https://mikemoisio.ai/)) before coding new features and tell what you are planning. That way they are more likely to be accepted.
+Contribution is welcome. However, contact [tzri](https://wpgod.com/) ([Mike](https://mikemoisio.com/)) before coding new features and tell what you are planning. That way they are more likely to be accepted.
 
 ## Download
 
