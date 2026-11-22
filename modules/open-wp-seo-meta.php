@@ -234,7 +234,7 @@ class OpenWordPressSEOMeta {
 	}
 	
 	public function print_script_version() {
-		echo "<!-- Open WordPress SEO " . OpenWordPressSEO::VERSION . " by Mike Moisio (https://mikemoisio.ai/open-wp-seo/) -->\n";
+		echo "<!-- Open WordPress SEO " . OpenWordPressSEO::VERSION . " by Mike Moisio (https://wpgod.com/wordpress-plugins/open-wp-seo/) -->\n";
 	}
 	
 	public function print_google_analytics_script() {
