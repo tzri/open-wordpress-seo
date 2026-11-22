@@ -1,17 +1,17 @@
 <?php
 /*
 Plugin Name: Open WordPress SEO
-Plugin URI: https://mikemoisio.ai/open-wp-seo/
+Plugin URI: https://wpgod.com/wordpress-plugins/open-wp-seo/
 Description: The free open-source WordPress SEO plugin.
 Version: 1.0.2
 Author: Mike Moisio
-Author URI: https://mikemoisio.ai/
+Author URI: https://mikemoisio.com/
 Text Domain: open-wp-seo
 License: GPL3
 */
 
 /*
-Copyright (C) 2017 Mike Moisio http://mikemoisio.ai/
+Copyright (C) 2017 Mike Moisio http://mikemoisio.com/
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
